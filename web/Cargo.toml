@@ -3,6 +3,10 @@ name = "web"
 version = "0.1.0"
 authors = ["kghugo <hugosum.dev@protonmail.com>"]
 edition = "2021"
+description = "A crate for creating Go board in Web Assembly"
+license = "commercial"
+license-file = "LICENSE"
+repository = "ssh://git@github.com:winston0410/goboard.git"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

@@ -38,13 +38,14 @@
               rustPackages.clippy
               alsa-lib
               udev
-              #NOTE Add more deps
               vulkan-loader
               xorg.libX11
               x11
               xorg.libXrandr
               xorg.libXcursor
               xorg.libXi
+              #NOTE For building with wasm-pack
+              openssl_3_0
             ];
             shellHook = ''
               export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:${
